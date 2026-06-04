@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="form-section">
+        <h1>User Profile Generator</h1>
+
+        <input type="text" id="name" placeholder="Enter Name">
+
+        <textarea id="bio" placeholder="Enter Bio"></textarea>
+
+        <input type="text" id="image"
+               placeholder="Enter Image URL">
+
+        <button onclick="generateProfile()">
+            Generate Profile
+        </button>
+    </div>
+
+    <div class="card" id="card">
+
+        <img id="profileImage"
+        src="https://i.pravatar.cc/200">
+
+        <h2 id="profileName">
+            Your Name
+        </h2>
+
+        <p id="profileBio">
+            Your bio will appear here
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
